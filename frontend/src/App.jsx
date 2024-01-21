@@ -1,11 +1,12 @@
-
+import Routespaths from "./Router";
+import HeaderSection from "./Components/Header";
 function App() {
-
   return (
-    <div>
-        Hello world
-    </div>
-  )
+    <>
+      <HeaderSection />
+      <Routespaths />
+    </>
+  );
 }
 
-export default App
+export default App;
