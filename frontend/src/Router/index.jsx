@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { HomePage, SignUp, SignIn, DashBoard } from "../Components";
+import { HomePage, SignUp, SignIn, DashBoard, SendMoney } from "../Components";
 
 const Routespaths = () => {
   return (
@@ -8,6 +8,7 @@ const Routespaths = () => {
       <Route path="/signup" element={<SignUp />}></Route>
       <Route path="/signin" element={<SignIn />}></Route>
       <Route path="/dashboard" element={<DashBoard />}></Route>
+      <Route path="/send" element={<SendMoney />}></Route>
     </Routes>
   );
 };
